@@ -1,0 +1,12 @@
+
+<ion-navbar *navbar>
+  <ion-title>Notificação Local</ion-title>
+</ion-navbar>
+
+<ion-content padding class="notification-test">
+
+  <button block (click)="send()">Enviar</button>
+
+  <p>{{ notification | json }}</p>
+  
+</ion-content>
