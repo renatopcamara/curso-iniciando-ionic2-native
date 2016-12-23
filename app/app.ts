@@ -5,7 +5,7 @@ import {HomePage} from './pages/home/home';
 import {CameraTestPage} from './pages/camera-test/camera-test';
 import {NetworkTestPage} from './pages/network-test/network-test';
 import {NotificationTestPage} from './pages/notification-test/notification-test';
-
+import {BarcodeTestPage} from './pages/barcode-test/barcode-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -21,8 +21,8 @@ export class MyApp {
       {title: 'Mengão', component: HomePage},
       {title: 'Câmera', component: CameraTestPage},
       {title: 'Network', component: NetworkTestPage},
-      {title: 'Notificação', component: NotificationTestPage}
-
+      {title: 'Notificação', component: NotificationTestPage},
+      {title: 'Código de Barras', component: BarcodeTestPage},
     ];
 
     platform.ready().then(() => {
